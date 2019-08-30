@@ -11,4 +11,5 @@
 * [Важные предупреждения](vazhnye-preduprezhdeniya.md)
 * [Авторы/Контакты](avtory-kontakty.md)
 * [Модуль ContentDiscovery](modul-contentdiscovery.md)
+* [Модули DafsDict, DafsMask и DafsCombine](moduli-dafsdict-dafsmask-i-dafscombine.md)
 
