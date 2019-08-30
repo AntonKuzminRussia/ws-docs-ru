@@ -5,25 +5,25 @@
 ```text
 ERROR: Module 'FooBar' not exists!
 Possible modules:
-	ContentDiscovery
-	DafsCombine
-	DafsDict
-	DafsMask
-	DnsBruterCombine
-	DnsBruterDict
-	DnsBruterMask
-	FormBruter
-	FuzzerHeaders
-	FuzzerUrls
-	HostsBruterCombine
-	HostsBruterDict
-	HostsBruterMask
-	ParamsBruterCombine
-	ParamsBruterDict
-	ParamsBruterMask
+    ContentDiscovery
+    DafsCombine
+    DafsDict
+    DafsMask
+    DnsBruterCombine
+    DnsBruterDict
+    DnsBruterMask
+    FormBruter
+    FuzzerHeaders
+    FuzzerUrls
+    HostsBruterCombine
+    HostsBruterDict
+    HostsBruterMask
+    ParamsBruterCombine
+    ParamsBruterDict
+    ParamsBruterMask
 ```
 
-Затем идут параметры и их значения. Если не указаны обязательные параметры, или указаны ошибочные, WS выведет справку со списком параметров модуля. Её также можно увидеть запустив нужный модуль с параметром «-h». 
+Затем идут параметры и их значения. Если не указаны обязательные параметры, или указаны ошибочные, WS выведет справку со списком параметров модуля. Её также можно увидеть запустив нужный модуль с параметром «-h».
 
 ```text
 $ ./main.py DafsDict -h
@@ -85,7 +85,6 @@ optional arguments:
                         File with list of HTTP headers
   --not-found-re NOT-FOUND-RE
                         Regex for detect 'Not found' response (404)
-
 ```
 
 Все параметры кроме «-h» имеют только длинный вариант записи. Их значения указываются стандартно — через пробел после самого параметра, через знак равно, в двойных или одинарных кавычках. Например обе следующие команды будут иметь один и тот же смысл:

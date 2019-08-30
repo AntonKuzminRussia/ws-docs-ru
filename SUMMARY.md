@@ -10,4 +10,5 @@
 * [Режимы работы](rezhimy-raboty.md)
 * [Важные предупреждения](vazhnye-preduprezhdeniya.md)
 * [Авторы/Контакты](avtory-kontakty.md)
+* [Модуль ContentDiscovery](modul-contentdiscovery.md)
 
