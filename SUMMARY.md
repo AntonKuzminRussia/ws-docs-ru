@@ -12,4 +12,7 @@
 * [Авторы/Контакты](avtory-kontakty.md)
 * [Модуль ContentDiscovery](modul-contentdiscovery.md)
 * [Модули DafsDict, DafsMask и DafsCombine](moduli-dafsdict-dafsmask-i-dafscombine.md)
+* [Модули DnsBruterDict, DnsBruterMask и DnsBruterCombine](moduli-dnsbruterdict-dnsbrutermask-i-dnsbrutercombine.md)
+* [Модуль FormBruter](modul-formbruter.md)
+* [Модуль FuzzerHeaders](modul-fuzzerheaders.md)
 
