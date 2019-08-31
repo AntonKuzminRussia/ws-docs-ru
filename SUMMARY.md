@@ -15,4 +15,13 @@
 * [Модули DnsBruterDict, DnsBruterMask и DnsBruterCombine](moduli-dnsbruterdict-dnsbrutermask-i-dnsbrutercombine.md)
 * [Модуль FormBruter](modul-formbruter.md)
 * [Модуль FuzzerHeaders](modul-fuzzerheaders.md)
+* [Модуль FuzzerUrls](modul-fuzzerurls.md)
+* [Модули HostsBruterDict, HostsBruterMask и HostsBruterCombine](moduli-hostsbruterdict-hostsbrutermask-i-hostsbrutercombine.md)
+* [Модули ParamsBruterDict и ParamsBruterMask](moduli-paramsbruterdict-i-paramsbrutermask.md)
+* [Маски](maski.md)
+* [TOR](tor.md)
+* [Selenium](selenium.md)
+* [Proxy](proxy.md)
+* [Логирование](logirovanie.md)
+* [Обратите внимание](obratite-vnimanie.md)
 
