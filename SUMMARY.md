@@ -24,4 +24,5 @@
 * [Proxy](proxy.md)
 * [Логирование](logirovanie.md)
 * [Обратите внимание](obratite-vnimanie.md)
+* [Решение проблем](reshenie-problem.md)
 
