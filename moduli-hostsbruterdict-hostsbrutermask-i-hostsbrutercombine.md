@@ -1,4 +1,4 @@
-# Модули HostsBruterDict, HostsBruterMask и HostsBruterCombine
+# \[M\] HostsDict, HostsMask и HostsCombine
 
 ## Общее описание
 

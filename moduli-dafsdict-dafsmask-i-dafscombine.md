@@ -1,4 +1,4 @@
-# Модули DafsDict, DafsMask и DafsCombine
+# \[M\] UrlsDict, UrlsMask и UrlsCombine
 
 ## Общее описание
 

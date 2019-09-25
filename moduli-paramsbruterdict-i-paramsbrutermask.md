@@ -1,4 +1,4 @@
-# Модули ParamsBruterDict и ParamsBruterMask
+# \[M\] ParamsDict и ParamsMask
 
 ## Общее описание
 

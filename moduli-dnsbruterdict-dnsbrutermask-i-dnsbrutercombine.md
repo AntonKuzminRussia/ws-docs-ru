@@ -1,4 +1,4 @@
-# Модули DnsBruterDict, DnsBruterMask и DnsBruterCombine
+# \[M\] DnsDict, DnsMask и DnsCombine
 
 ## Общее описание
 

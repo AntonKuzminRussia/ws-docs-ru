@@ -1,4 +1,4 @@
-# Модуль ContentDiscovery
+# \[M\] ContentDiscovery
 
 ## Общее описание
 

@@ -1,4 +1,4 @@
-# Модуль FuzzerHeaders
+# \[M\] FuzzerHeaders
 
 ## Общее описание
 

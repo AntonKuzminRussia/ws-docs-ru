@@ -1,4 +1,4 @@
-# Модуль FuzzerUrls
+# \[M\] FuzzerUrls
 
 ### Общее описание
 
