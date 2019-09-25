@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Описание](README.md)
+* [Быстрый старт](bystryi-start.md)
 * [Системные требования](sistemnye-trebovaniya.md)
 * [Установка](ustanovka.md)
 * [Режимы работы](rezhimy-raboty.md)
