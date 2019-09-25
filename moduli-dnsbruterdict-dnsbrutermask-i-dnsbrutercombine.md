@@ -16,10 +16,16 @@
 
 ## Примеры
 
-Простой поиск поддоменов:
+Простой поиск поддоменов по словарю:
 
 ```text
 ./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
+```
+
+Простой поиск поддоменов по маске:
+
+```text
+./main.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
 ```
 
 Поиск поддоменов в wildcard-зоне с игнорированием IP по умолчанию:

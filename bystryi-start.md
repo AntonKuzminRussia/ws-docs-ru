@@ -8,34 +8,16 @@
 ./main.py UrlsDict --template http://simple.polygon.web-scout.online/@ --dict bases/demo/dict.txt
 ```
 
+Простой поиск по маске:
+
+```text
+./main.py UrlsMask --template http://simple.polygon.web-scout.online/@ --mask ?l,1,4
+```
+
 Простой поиск по словарю в selenium-режиме:
 
 ```text
 ./main.py UrlsDict --template http://selenium.polygon.web-scout.online/@ --dict bases/demo/dict.txt --selenium 1 --browser-wait-re "checking" --not-found-re "Not Found"
-```
-
-Поиск на сайте, который отвечает 200 на запрос несуществующих страниц:
-
-```text
-./main.py UrlsDict --template http://always-200.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-re "Page not found"
-```
-
-Поиск с восприятием кода 500 как 404:
-
-```text
-./main.py UrlsDict --template http://always-500.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-codes 500
-```
-
-Поиск с повторением запроса при получении кода 503:
-
-```text
-./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-codes 503
-```
-
-Поиск с повторением запроса при наличии фразы "Too big load" в ответе сервера:
-
-```text
-./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-re "Too big load"
 ```
 
 ## Раскрытие контента
@@ -54,33 +36,38 @@
 ./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
 ```
 
-Поиск поддоменов в wildcard-зоне с игнорированием IP по умолчанию:
+Простой поиск поддоменов по маске:
 
 ```text
-./main.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
-```
-
-Поиск поддоменов в wildcard-зоне методом запроса найденных имён на веб-сервере:
-
-```text
-./main.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
+./main.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
 ```
 
 ## Поиск виртуальных хостов
 
-Поиск виртуального хоста на веб-сервере:
+Поиск виртуального хоста на веб-сервере по словарю:
 
 ```text
 ./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
 ```
 
+Поиск виртуального хоста на веб-сервере по маске:
+
+```text
+./main.py HostsMask --ip 82.146.56.21 --mask ?l,1,4 --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
+```
 
 ## Поиск параметров URL
 
-Поиск параметров скрипта методом GET:
+Поиск параметров скрипта методом GET по словарю:
 
 ```text
 ./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --dict bases/demo/dict.txt --max-params-length 1000 --params-method GET --not-found-re NOT
+```
+
+Поиск параметров скрипта методом GET по маске:
+
+```text
+./main.py ParamsMask --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --mask ?l,1,2 --max-params-length 1000 --params-method GET --not-found-re NOT
 ```
 
 Поиск параметров скрипта принимающего файлы на загрузку:

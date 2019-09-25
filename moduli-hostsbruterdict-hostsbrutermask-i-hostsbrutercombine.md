@@ -10,10 +10,16 @@
 
 ## Примеры
 
-Поиск виртуального хоста на веб-сервере:
+Поиск виртуального хоста на веб-сервере по словарю:
 
 ```text
 ./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
+```
+
+Поиск виртуального хоста на веб-сервере по маске:
+
+```text
+./main.py HostsMask --ip 82.146.56.21 --mask ?l,1,4 --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
 ```
 
 ## Опции \(\* - обязательные\)
