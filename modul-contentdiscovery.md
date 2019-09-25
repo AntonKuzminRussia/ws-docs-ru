@@ -37,6 +37,15 @@ ContentDiscovery является обёрткой вокруг DafsDict, кот
 
 Если в начале имени присутствует буква, то генерируются все варианты имени в котором вместо этой буквы ставятся другие буквы того же регистра \(admin =&gt; bdmin, cdmin, …, zdmin\). Аналогично с буквами в конце имени \(admin =&gt; admia,...,admib\). Это касается и имён файлов в которых буква идёт перед расширением \(admin.php =&gt; admia.php, …, admiz.php\).
 
+## Примеры
+
+Простой запуск для поиска новых URL:
+
+```text
+./main.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
+```
+
+
 ## Опции \(\* - обязательные\)
 
 {% hint style="info" %}
