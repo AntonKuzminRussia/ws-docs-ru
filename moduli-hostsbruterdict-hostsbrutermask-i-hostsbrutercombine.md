@@ -13,7 +13,7 @@
 Поиск виртуального хоста на веб-сервере:
 
 ```text
-./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page" 
+./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
 ```
 
 ## Опции \(\* - обязательные\)
