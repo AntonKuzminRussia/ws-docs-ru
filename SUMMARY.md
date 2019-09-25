@@ -21,7 +21,7 @@
 * [TOR](tor.md)
 * [XML-отчёты](xml-otchyoty.md)
 * [Логирование](logirovanie.md)
-* [Важное предупреждение](vazhnye-preduprezhdeniya.md)
 * [Решение проблем](reshenie-problem.md)
+* [Важное предупреждение](vazhnye-preduprezhdeniya.md)
 * [Авторы/Контакты](avtory-kontakty.md)
 
