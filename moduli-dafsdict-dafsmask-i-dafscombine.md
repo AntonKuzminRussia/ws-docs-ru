@@ -19,6 +19,44 @@
 
 Работа модулей осуществляется как в режиме «сырого» http, так и средствами selenium.
 
+### Примеры
+
+Простой поиск по словарю:
+
+```text
+./main.py UrlsDict --template http://simple.polygon.web-scout.online/@ --dict bases/demo/dict.txt
+```
+
+Простой поиск по словарю в selenium-режиме:
+
+```text
+./main.py UrlsDict --template http://selenium.polygon.web-scout.online/@ --dict bases/demo/dict.txt --selenium 1 --browser-wait-re "checking" --not-found-re "Not Found"
+```
+
+Поиск на сайте, который отвечает 200 на запрос несуществующих страниц:
+
+```text
+./main.py UrlsDict --template http://always-200.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-re "Page not found"
+```
+
+Поиск с восприятием кода 500 как 404:
+
+```text
+./main.py UrlsDict --template http://always-500.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-codes 500
+```
+
+Поиск с повторением запроса при получении кода 503:
+
+```text
+./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-codes 503
+```
+
+Поиск с повторением запроса при наличии фразы "Too big load" в ответе сервера:
+
+```text
+./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-re "Too big load"
+```
+
 ## Опции \(\* - обязательно\)
 
 {% hint style="info" %}

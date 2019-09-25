@@ -25,6 +25,20 @@
 
 Здесь логин будет вводиться в текстовое поле с id=user, пароль в текстовое поле с id=pass, и затем будет происходить клик по элементу с id=submit.
 
+## Примеры
+
+Простой брут POST формы:
+
+```text
+./main.py Forms --url http://simple.polygon.web-scout.online/admin.php --dict bases/demo/dict.txt --conf-str "login=^USER^&password=^PASS^" --false-re "User: " --login admin
+```
+
+Брут формы в selenium-режиме:
+
+```text
+./main.py Forms --url http://selenium.polygon.web-scout.online/admin.php --dict bases/demo/dict.txt --conf-file bases/demo/form-brute.conf --false-re "User: " --login admin --selenium 1 --browser-wait-re "checking"
+```
+
 ### Опции \(\* - обязательные\)
 
 {% hint style="info" %}

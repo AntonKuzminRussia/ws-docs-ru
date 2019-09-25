@@ -12,6 +12,20 @@
 
 Работа модулей осуществляется как в режиме «сырого» http, так и средствами selenium.
 
+## Примеры
+
+Поиск параметров скрипта методом GET:
+
+```text
+./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --dict bases/demo/dict.txt --max-params-length 1000 --params-method GET --not-found-re NOT
+```
+
+Поиск параметров скрипта принимающего файлы на загрузку:
+
+```text
+./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-files.php --dict bases/demo/dict.txt --max-params-length 10 --params-method FILES --not-found-re NOT
+```
+
 ## Опции \(\* - обязательно\)
 
 {% hint style="info" %}

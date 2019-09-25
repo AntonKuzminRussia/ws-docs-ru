@@ -14,6 +14,26 @@
 
 Работает только в «raw» режиме.
 
+## Примеры
+
+Простой поиск поддоменов:
+
+```text
+./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
+```
+
+Поиск поддоменов в wildcard-зоне с игнорированием IP по умолчанию:
+
+```text
+./main.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
+```
+
+Поиск поддоменов в wildcard-зоне методом запроса найденных имён на веб-сервере:
+
+```text
+./main.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
+```
+
 ## Опции \(\* - обязательные\)
 
 | Имя | По умолчанию | Описание |

@@ -11,6 +11,14 @@
 
 Модуль работает в raw и selenium режимах.
 
+## Примеры
+
+Фаззинг параметров URL
+
+```text
+./main.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
+```
+
 ## Опции \(\* - обязательные\)
 
 {% hint style="info" %}
