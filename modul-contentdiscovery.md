@@ -42,7 +42,7 @@ ContentDiscovery является обёрткой вокруг DafsDict, кот
 Простой запуск для поиска новых URL:
 
 ```text
-./main.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
+./ws.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
 ```
 
 

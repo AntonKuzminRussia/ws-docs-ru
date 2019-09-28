@@ -19,25 +19,25 @@
 Простой поиск поддоменов по словарю:
 
 ```text
-./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
+./ws.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
 ```
 
 Простой поиск поддоменов по маске:
 
 ```text
-./main.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
+./ws.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
 ```
 
 Поиск поддоменов в wildcard-зоне с игнорированием IP по умолчанию:
 
 ```text
-./main.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
+./ws.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
 ```
 
 Поиск поддоменов в wildcard-зоне методом запроса найденных имён на веб-сервере:
 
 ```text
-./main.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
+./ws.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
 ```
 
 ## Опции \(\* - обязательные\)

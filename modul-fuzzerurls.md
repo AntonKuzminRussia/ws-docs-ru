@@ -16,7 +16,7 @@
 Фаззинг параметров URL
 
 ```text
-./main.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
+./ws.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
 ```
 
 ## Опции \(\* - обязательные\)
